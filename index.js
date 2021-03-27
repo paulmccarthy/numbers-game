@@ -162,7 +162,7 @@ while (!gameOver) {
     }
 
     if (gameOver) {
-        console.log(`Game Over, you won with ${numCombinations} combinations!`);
+        console.log(`Game Over, you won with ${numCombinations} combinations in ${numRounds} rounds!`);
     }
 
     if (numRounds >= maxRounds) {
